@@ -1,0 +1,30 @@
+// Auth - signup
+POST http://ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+    "email": "vasco.maia@ua.pt",
+    "password": "1234"
+}
+
+###
+
+// Auth - signin
+POST http://ticketing.dev/api/users/signin
+Content-Type: application/json
+
+{
+    "email": "vasco.maia@ua.pt",
+    "password": "123"
+}
+
+###
+
+// Auth - signout
+POST http://ticketing.dev/api/users/signout
+Content-Type: application/json
+
+{
+    "email": "vasco.maia@ua.pt",
+    "password": "123"
+}
