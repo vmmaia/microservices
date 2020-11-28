@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:current-alpine
 ENV CI=true
  
 WORKDIR /app
